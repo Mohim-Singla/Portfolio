@@ -1,5 +1,9 @@
-#education{
-    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Images/bgsection2.png);
+/* #education{
+    
+} */
+
+.ultimate-bg{
+    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Images/bgsection2.png) fixed;
     z-index: -3;
 }
 
@@ -30,6 +34,7 @@
     transition: 0.3s;
     background: transparent;
     align-content: center;
+    color: #fff;
 }
 
 .card img:hover {
@@ -37,7 +42,7 @@
     transition: 0.7s ease-out;
 }
   
-.container {
+.container{
     margin: 2%;
     padding: 2px 16px;
     color: #fff;
