@@ -9,23 +9,28 @@
     <link rel="stylesheet" href="index2.css">
     <link rel="stylesheet" href="index3.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="index.js"></script>
 </head>
 <body>
     <div class="ultimate-bg">
         <section id="header">
             <nav>
                 <img src="./Images/signature.png" alt="">
-                <ul>
-                    <li><a class="nav-items" href="#void">Home</a></li>
-                    <li><a class="nav-items" href="#void">Education</a></li>
-                    <li><a class="nav-items" href="#void">Work Experience</a></li>
-                    <li><a class="nav-items" href="#void">Projects</a></li>
-                    <li><a class="nav-items" href="#void">Skills</a></li>
-                    <li><a class="nav-items" href="#void">Contact Me</a></li>
-                </ul>
+                <div class="nav-links" id="menu">
+                    <i class="fa fa-times" onclick="hideit()"></i>
+                    <ul>
+                        <li><a class="nav-items" href="#header" onclick="hideit()">Home</a></li>
+                        <li><a class="nav-items" href="#education" onclick="hideit()">Education</a></li>
+                        <li><a class="nav-items" href="#projects" onclick="hideit()">Projects</a></li>
+                        <li><a class="nav-items" href="#void" onclick="hideit()">Work Experience</a></li>
+                        <li><a class="nav-items" href="#void" onclick="hideit()">Skills</a></li>
+                        <li><a class="nav-items" href="#void" onclick="hideit()">Contact Me</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="openit()"></i>
             </nav>
             <div class="intro">
-                <h1>I'm a Programmer....</h1>
+                <h1>I'm a Programmer...</h1>
                 <a href="#education" class="intro-button">| Know More |</a>
             </div>
         </section>
@@ -83,5 +88,7 @@
             </div>
         </section>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
