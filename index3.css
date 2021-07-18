@@ -1,5 +1,5 @@
 #projects{
-    background: url(images/project-bg.png) no-repeat center;
+    background: linear-gradient(rgba(223, 215, 142, 0.7), rgba(4,9,30,0.7)), url(images/project-bg.png) no-repeat center;
     background-size: cover;
 }
 
@@ -17,7 +17,7 @@
 }
 .project-parts{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .project-group{
     display: flex;
@@ -25,9 +25,14 @@
 }
 .project-individual{
     padding: 5%;
-    margin: 3% 0;
+    margin: 5%;
+    margin-right: 10%;
     text-align: center;
     border: 2px solid #913313;
+    border-radius: 15%;
+    font-weight: 600;
+    color: #31085d;
+    box-shadow: 0 8px 8px 0 #913313;
 }
 .project-individual i{
     padding: 2%;
@@ -35,4 +40,15 @@
 }
 .project-individual i:hover{
     box-shadow: 0 2px 4px 0 turquoise;
+}
+
+@media screen and (max-width: 500px){
+    .project-parts{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .project-parts img{
+        width: 65%;
+    }
 }
