@@ -11,13 +11,14 @@
 }
 
 .project-parts img{
-    width: 43%;
+    width: 35%;
     padding: 5%;
     border-radius: 20%;
 }
 .project-parts{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-content: center;
 }
 .project-group{
     display: flex;
@@ -33,13 +34,14 @@
     font-weight: 600;
     color: #31085d;
     box-shadow: 0 8px 8px 0 #913313;
+    background: linear-gradient(rgba(223, 215, 142, 0.7), rgba(4, 9, 30, 0.548));
 }
 .project-individual i{
     padding: 2%;
     border-radius: 50%;
 }
 .project-individual i:hover{
-    box-shadow: 0 2px 4px 0 turquoise;
+    box-shadow: 0 2px 3px 0 turquoise;
 }
 
 @media screen and (max-width: 500px){
