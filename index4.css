@@ -1,0 +1,10 @@
+#skills{
+    background: url(images/skills.png);
+    text-align: center;
+}
+
+.skill h1{
+    padding: 40px;
+    font-size: 48px;
+    color: rgba(255, 255, 0, 0.774);
+}
