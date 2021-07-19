@@ -14,6 +14,9 @@
     color: violet;
     font-size: 25px;
 }
+.skill-set-container{
+    padding-bottom: 10px;
+}
 .progress {
     margin:20px auto;
     padding:0;
