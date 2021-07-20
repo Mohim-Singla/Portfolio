@@ -1,3 +1,74 @@
 #about-me{
     background: url('images/aboutbg.png') center no-repeat;
+    text-align: center;
+}
+.about-header h1{
+    font-size: 48px;
+    color: rgb(1, 119, 119);
+    padding-top: 3%;
+}
+.about-me-dec{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+.about-header hr{
+    display: inline-block;
+    width: 20%;
+    height: 5px;
+    background:linear-gradient(rgba(255, 81, 0,0.7), rgba(9, 13, 31, 0.103));
+    align-self: center;
+}
+.about-me-contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    text-align: justify;
+    text-align-last: center;
+    padding: 3%;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.about-me-textbox{
+    color: darkorange;
+    font-weight: 500;
+    padding: 2%;
+    line-height: 30pt;
+}
+.about-me-contents img{
+    width: 40%;
+    padding: 2%;
+}
+.fab{
+    padding: 2%;
+}
+.intro1{
+    position: relative;
+}
+.intro-button-2{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 13px;
+    margin: 0.7%;
+    background: transparent;
+    border: 3px solid #fff;
+    color: deepskyblue;
+}
+.intro-button-2:hover{
+    border: 2px solid tomato;
+    background: floralwhite;
+    transition: 0.5s ease-in;
+    color: forestgreen;
+}
+
+@media screen and (max-width: 500px) {
+    .about-me-contents{
+        flex-direction: column;
+    }
+    .about-me-textbox{
+        line-height: 20pt;
+    }
 }
