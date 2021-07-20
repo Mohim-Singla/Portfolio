@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.skill h1{
+.skill{
     padding: 40px;
     font-size: 48px;
     color: rgba(255, 255, 0, 0.774);
@@ -35,3 +35,11 @@
     background:gray;
   }
   
+  @media screen and (max-width: 500px) {
+      #skills h3{
+          font-size: 20px;
+      }
+      h1{
+          font-size: 30px;
+      }
+  }

@@ -40,6 +40,7 @@ nav ul li a{
 }
 nav .fa{
     display: none;
+    padding: 2%;
 }
 .intro{
     width: 100%;
@@ -107,7 +108,7 @@ nav .fa{
         font-size: 20px;
         color: white;
         cursor: pointer;
-        margin-right: 20px;
+        margin: 20px;
     }
     .nav-links ul{
         padding: 20px;
