@@ -1,45 +1,53 @@
 .ultimate-bg{
     background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Images/bgsection2.png) fixed;
     z-index: -3;
+    text-align: center;
 }
 
 .heading{
     color: #fff;
-    text-align: center;
     padding-top: 40px;
-    font-size: 28px;
+    font-size: 48px;
 }
 
 .education-block{
     padding:  2%;
-    text-align: center;
     display: flex;
     justify-content: space-evenly;
     flex-flow: row wrap;
     opacity: 1;
 }
 
-.card img{
-    border-radius: 50%;
-}
-
-.card {
-    width: 40%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin: 4%;
-    transition: 0.3s;
-    background: transparent;
-    align-content: center;
-    color: #fff;
-}
-
-.card img:hover {
-    box-shadow: 0 12px 20px 0 rgb(143, 143, 143);
-    transition: 0.7s ease-out;
-}
-  
-.container{
+.card{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(222, 233, 66);
+    align-items: center;
+    border: 3px solid rgb(28, 105, 105);
+    padding: 4%;
     margin: 2%;
-    padding: 2px 16px;
-    color: #fff;
+    background: linear-gradient(rgba(175, 181, 206, 0.7), rgba(4, 8, 27, 0.767));
+}
+.card img{
+    width: 200px;
+    padding: 2%;
+}
+.ed-text p{
+    font-size: 20px;
+    font-weight: 550;
+    padding-bottom: 11px;
+}
+.card i{
+    color: coral;
+}
+
+@media screen and (max-width:500px) {
+    .card{
+        flex-direction: column;
+        width: 90%;
+        margin: 3%;
+    }
+    #education h1{
+        font-size: 45px;
+    }
 }

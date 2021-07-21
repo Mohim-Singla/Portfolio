@@ -8,7 +8,7 @@
     color: #913313;
     
     padding-top: 7%;
-    font-size: 28px;
+    font-size: 48px;
 }
 
 .project-parts img{
@@ -51,5 +51,8 @@
     }
     .project-parts img{
         width: 65%;
+    }
+    #projects h1{
+        font-size: 45px;
     }
 }

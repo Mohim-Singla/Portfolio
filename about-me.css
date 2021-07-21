@@ -34,7 +34,7 @@ a{
 }
 .about-me-textbox{
     color: darkorange;
-    font-weight: 500;
+    font-weight: 600;
     padding: 2%;
     line-height: 30pt;
 }
@@ -54,7 +54,7 @@ a{
     padding: 12px 13px;
     margin: 0.7%;
     background: transparent;
-    border: 3px solid #fff;
+    border: 2px solid rgb(63, 63, 63);
     color: deepskyblue;
 }
 .intro-button-2:hover{
@@ -70,5 +70,6 @@ a{
     }
     .about-me-textbox{
         line-height: 20pt;
+        font-weight: 500;
     }
 }
