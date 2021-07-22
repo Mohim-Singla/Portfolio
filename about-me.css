@@ -42,8 +42,12 @@ a{
     width: 40%;
     padding: 2%;
 }
-.fab{
+.about-me-textbox a i{
     padding: 2%;
+    opacity: 0.7;
+}
+.about-me-textbox a i:hover{
+    opacity: 1;
 }
 .intro1{
     position: relative;

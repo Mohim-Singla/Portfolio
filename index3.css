@@ -52,7 +52,7 @@
     .project-parts img{
         width: 65%;
     }
-    #projects h1{
+    .projects-heading h1{
         font-size: 45px;
     }
 }
