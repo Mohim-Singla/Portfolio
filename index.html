@@ -14,73 +14,72 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 <body>
-    <div>
-        <section id="header">
-            <nav>
-                <img src="./Images/signature.png" alt="">
-                <div class="nav-links" id="menu">
-                    <i class="fa fa-times" onclick="hideit()"></i>
-                    <ul>
-                        <li><a class="nav-items" href="#header" onclick="hideit()">Home</a></li>
-                        <li><a class="nav-items" href="#education" onclick="hideit()">Education</a></li>
-                        <li><a class="nav-items" href="#projects" onclick="hideit()">Projects</a></li>
-                        <li><a class="nav-items" href="#skills" onclick="hideit()">Skills</a></li>
-                        <li><a class="nav-items" href="#about-me" onclick="hideit()">About Me</a></li>
-                    </ul>
-                </div>
-                <i class="fa fa-bars" onclick="openit()"></i>
-            </nav>
-            <div class="intro">
-                <h1>I'm a Programmer...</h1>
-                <a href="#education" class="intro-button">| Know More |</a>
-                <a href="#void" class="intro-button">| Contact Me |</a>
+    <section id="header">
+        <nav id="navbar">
+            <img src="./Images/signature.png" alt="">
+            <div class="nav-links" id="menu">
+                <i class="fa fa-times" onclick="hideit()"></i>
+                <ul>
+                    <li><a class="nav-items" href="#header" onclick="hideit()">Home</a></li>
+                    <li><a class="nav-items" href="#education" onclick="hideit()">Education</a></li>
+                    <li><a class="nav-items" href="#projects" onclick="hideit()">Projects</a></li>
+                    <li><a class="nav-items" href="#skills" onclick="hideit()">Skills</a></li>
+                    <li><a class="nav-items" href="#about-me" onclick="hideit()">About Me</a></li>
+                </ul>
             </div>
-        </section>
+            <i class="fa fa-bars" onclick="openit()"></i>
+        </nav>
+        <div class="intro">
+            <h1>I'm a Programmer...</h1>
+            <a href="#education" class="intro-button">| Know More |</a>
+            <a href="#void" class="intro-button">| Contact Me |</a>
+        </div>
+    </section>
+
+    <!--  -->
+
+    <section id="education"  class="ultimate-bg">
+        <div class="heading"><h1>Education</h1></div>
+        <div class="education-block">
+            <div class="card">
+                <img src="images/pec.png" alt="">
+                <div class="ed-text"><p>Punjab Engineering College<br>2019-2023<br></p><a href="https://pec.ac.in/"><i class="fas fa-globe fa-2x"></i></a></div>
+            </div>
+            <div class="card">
+                <img src="images/fateh.png" alt="">
+                <div class="ed-text"><p>Saint Fateh High School<br>2017-2019</p><a href="https://www.sfscs.com/"><i class="fas fa-globe fa-2x"></i></a></div>
+            </div>
+            <div class="card">
+                <img src="images/xavier.png" alt="">
+                <div class="ed-text"><p>St. Xavier's High School<br>2017 pass out</p><a href="https://www.xavierbathinda.com/"><i class="fas fa-globe fa-2x"></i></a></div>
+            </div>                
+        </div>
+    </section>
+    <!--  -->
+    <section id="projects">
+        <div class="projects-heading">
+            <h1>Projects Counter</h1>
+        </div>
+        <div class="project-parts">
+            <img src="images/work.gif" alt="">
+            <div class="project-group">
+                <div class="project-individual">
+                    <h1>My College Website</h1>
+                    <img src="images/pec-logo.png" alt="">
+                    <p>My college webpage using HTML, CSS and JavaScript</p>
+                    <a href="https://github.com/Mohim-Singla/My_College_Website"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://mohim-singla.github.io/My_College_Website/"><i class="fas fa-globe fa-2x"></i></a>
+                </div>
+                <div class="project-individual">
+                    <h1>Bus Reservation System</h1>
+                    <img src="images/bus.png" alt="">
+                    <p>Bus Reservation system Program using C++</p>
+                    <a href="https://github.com/Mohim-Singla/Bus_Reservation_System_Optimised"><i class="fab fa-github fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
     
-        <!--  -->
-    
-        <section id="education"  class="ultimate-bg">
-            <div class="heading"><h1>Education</h1></div>
-            <div class="education-block">
-                <div class="card">
-                    <img src="images/pec.png" alt="">
-                    <div class="ed-text"><p>Punjab Engineering College<br>2019-2023<br></p><a href="https://pec.ac.in/"><i class="fas fa-globe fa-2x"></i></a></div>
-                </div>
-                <div class="card">
-                    <img src="images/fateh.png" alt="">
-                    <div class="ed-text"><p>Saint Fateh High School<br>2017-2019</p><a href="https://www.sfscs.com/"><i class="fas fa-globe fa-2x"></i></a></div>
-                </div>
-                <div class="card">
-                    <img src="images/xavier.png" alt="">
-                    <div class="ed-text"><p>St. Xavier's High School<br>2017 pass out</p><a href="https://www.xavierbathinda.com/"><i class="fas fa-globe fa-2x"></i></a></div>
-                </div>                
-            </div>
-        </section>
-        <!--  -->
-        <section id="projects">
-            <div class="projects-heading">
-                <h1>Projects Counter</h1>
-            </div>
-            <div class="project-parts">
-                <img src="images/work.gif" alt="">
-                <div class="project-group">
-                    <div class="project-individual">
-                        <h1>My College Website</h1>
-                        <img src="images/pec-logo.png" alt="">
-                        <p>My college webpage using HTML, CSS and JavaScript</p>
-                        <a href="https://github.com/Mohim-Singla/My_College_Website"><i class="fab fa-github fa-2x"></i></a>
-                        <a href="https://mohim-singla.github.io/My_College_Website/"><i class="fas fa-globe fa-2x"></i></a>
-                    </div>
-                    <div class="project-individual">
-                        <h1>Bus Reservation System</h1>
-                        <img src="images/bus.png" alt="">
-                        <p>Bus Reservation system Program using C++</p>
-                        <a href="https://github.com/Mohim-Singla/Bus_Reservation_System_Optimised"><i class="fab fa-github fa-2x"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
     <section id="skills">
         <div class="skill">
             <h1>Skills in the Backpack</h1>
@@ -142,6 +141,7 @@
                 <br>
                 <a href="https://github.com/Mohim-Singla"><i class="fab fa-github fa-2x"></i></a>
                 <a href="https://www.linkedin.com/in/mohim-singla-777b291a4"><i class="fab fa-linkedin fa-2x"></i></i></a>
+                <a href="tel:7814693142"><i class="fas fa-phone-volume fa-2x"></i></a>
                 <a href="mailto:mohimsingla@gmail.com"><i class="fab fa-google fa-2x"></i></a>
                 <a href="https://instagram.com/mohim__singla__/"><i class="fab fa-instagram fa-2x"></i></a>
                 <br>
@@ -153,7 +153,7 @@
     </section>
     <div class="footer-basic">
         <footer>
-            <div class="social"><a href="https://github.com/Mohim-Singla"><i class="fab fa-github"></i></a><a href="mailto:mohimsingla@gmail.com"><i class="fab fa-google"></i></a><a href="https://www.linkedin.com/in/mohim-singla-777b291a4"><i class="fab fa-linkedin"></i></a><a href="https://instagram.com/mohim__singla__/"><i class="fab fa-instagram"></i></a></div>
+            <div class="social"><a href="https://github.com/Mohim-Singla"><i class="fab fa-github"></i></a><a href="mailto:mohimsingla@gmail.com"><i class="fab fa-google"></i></a><a href="tel:7814693142"><i class="fas fa-phone-volume"></i></a><a href="https://www.linkedin.com/in/mohim-singla-777b291a4"><i class="fab fa-linkedin"></i></a><a href="https://instagram.com/mohim__singla__/"><i class="fab fa-instagram"></i></a></div>
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="#header">Home</a></li>
                 <li class="list-inline-item"><a href="#education">Education</a></li>
