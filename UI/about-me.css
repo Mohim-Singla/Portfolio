@@ -1,5 +1,5 @@
 #about-me{
-    background: url('images/aboutbg.png') center no-repeat;
+    background: url('../Images/aboutbg.png') center no-repeat;
     text-align: center;
 }
 .about-header h1{
