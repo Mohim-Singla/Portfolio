@@ -3,7 +3,12 @@
     padding: 0;
     scroll-behavior: smooth;
 }
-
+.test{
+    position: fixed;
+    background: rgba(86, 184, 124, 0.657);
+    z-index: 3;
+    height: 5%;
+}
 #header{
     background: url(../Images/bg.png) no-repeat center;
     background-size: cover;
