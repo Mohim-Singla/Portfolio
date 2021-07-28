@@ -22,3 +22,12 @@ function hideit()
     $('body').removeClass('no-scroll');
     $('html').removeClass('no-scroll');
 }
+
+document.querySelectorAll('.nav-items').forEach( function (element) {
+  element.addEventListener('click', function (e) {
+    e.preventDefault();
+    const id = this.getAttribute('href');
+    console.log(id);
+    document.querySelector(id).scrollIntoView({behavior: 'smooth'});
+  });
+});
