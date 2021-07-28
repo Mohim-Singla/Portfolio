@@ -1,14 +1,14 @@
 const ed = document.getElementById('education');
 const positionEd = ed.getBoundingClientRect();
-const nav = document.getElementById('header');
+const nav1 = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
   if (window.scrollY > positionEd.top) {
-    nav.classList.add('test');
+    nav1.classList.add('test');
   }
   else{
-    nav.classList.remove('test');
+    nav1.classList.remove('test');
   }
-})
+});
 
 function openit()
 {
@@ -26,6 +26,14 @@ function hideit()
 }
 
 document.querySelectorAll('.nav-items').forEach( function (element) {
+  element.addEventListener('click', function (e) {
+    e.preventDefault();
+    const id = this.getAttribute('href');
+    document.querySelector(id).scrollIntoView({behavior: 'smooth'});
+  });
+});
+
+document.querySelectorAll('.btn').forEach( function (element) {
   element.addEventListener('click', function (e) {
     e.preventDefault();
     const id = this.getAttribute('href');
