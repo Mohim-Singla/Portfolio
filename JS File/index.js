@@ -1,12 +1,14 @@
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  if (document.documentElement.scrollTop > 500) {
-    document.getElementById("navbar").className = "test";
-  } else {
-    document.getElementById("navbar").className = "";
+const ed = document.getElementById('education');
+const positionEd = ed.getBoundingClientRect();
+const nav = document.getElementById('header');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > positionEd.top) {
+    nav.classList.add('test');
   }
-}
+  else{
+    nav.classList.remove('test');
+  }
+})
 
 function openit()
 {
