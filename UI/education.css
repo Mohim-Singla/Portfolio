@@ -1,6 +1,5 @@
 .ultimate-bg{
     background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(../Images/bgsection2.png) fixed;
-    z-index: -3;
     text-align: center;
 }
 
