@@ -11,6 +11,7 @@
     background: url(../Images/bg.png) no-repeat center;
     background-size: cover;
     height: 100vh;
+    position: sticky;
 }
 
 nav{
@@ -102,6 +103,7 @@ nav .fa{
         right: -200px;
         text-align: left;
         transition: 1s;
+        z-index: 99;
     }
     nav .fa{
         display:inline-block;
